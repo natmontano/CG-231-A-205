@@ -1,0 +1,27 @@
+//Escriba la definición de una función en javascript que reciba un vector 3D cualquiera como parámetro 
+//(interpretarlo como mejor lo considere) y retorne si el mismo es o no paralelo a uno de los ejes principales (X, Y o Z).
+
+function Geometria(vx){
+    geom=new THREE.Geometry();
+        var largoVertice = vx.length;
+        for (i = 0; i < largoVertice; i++) {
+            x = vx[i][0];
+            y = vx[i][1];
+            z = vx[i][2];
+            vector = new THREE.Vector3(x, y, z);
+            geom.vertices.push(vector);
+        }
+        return geom;
+}
+
+
+//Escriba la definición de una función en javascript que reciba un arreglo de elementos de tipo entero 
+//y retorne el elemento de menor valor.
+function numeros(int){
+int[] numeros = new int[i + 1];
+for(i=0;i<n;i++){
+    numeros= n>i;
+}
+}
+return numeros;
+}
